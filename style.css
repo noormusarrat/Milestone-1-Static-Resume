@@ -1,0 +1,88 @@
+/* General Styling */
+.container {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.right-column {
+    padding: 100px;
+}
+
+.left-column {
+    width: 50%;
+    background-color: #f1a8ca; /* Blue background for the left column */
+    color: #0f0f0f; /* White text color */
+    padding: 30px; /* Increased padding */
+    border-top-left-radius: 30px; /* Rounded corners */
+    border-bottom-left-radius: 30px; /* Rounded corners */
+}
+
+
+/* Profile Picture Styling */
+.profile-picture img {
+    border-radius: 50%; /* Circle shape */
+    width: 150px; /* Size of the image */
+    height: 150px; /* Ensures image is perfectly circular */
+    object-fit: cover; /* Makes sure the image fits inside the circle */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adds a soft shadow around the image */
+    margin-bottom: 20px;
+}
+
+
+.contact-info p {
+    font-size: 20px;
+    line-height: 1.6; /* Better readability */
+}
+
+
+.skills-section li {
+    font-size: 20px;
+}
+
+
+/* Right Column Styling */
+.right-column {
+    width: 70%;
+}
+
+.education p {
+    font-size: 20px;
+}
+
+.work-experience p {
+    font-size: 20px;
+}
+.section {
+    margin-bottom: 20px;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0; /* Background color light gray */
+    color: #333; /* Default text color */
+}
+
+/* Headings Styling */
+h2 {
+    font-family: 'Georgia', serif; /* Different font for headings */
+    color: #060a0e; /* A dark blue color for headings */
+    font-size: 30px;
+}
+
+/* Skills List Styling */
+.skills-section ul {
+    list-style-type: square; /* Change bullet points to squares */
+    padding-left: 20px;
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .left-column, .right-column {
+        width: 100%;
+    }
+}
+
